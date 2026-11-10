@@ -10,3 +10,6 @@ pnpm dev               # http://localhost:8787
 ```
 
 Working on it with an agent: start at [AGENTS.md](AGENTS.md).
+
+GitHub Copilot loads `plan-to-issues` through `.github/skills/plan-to-issues`, a symlink to
+the shared source in `.agents/skills/`. Edit the shared source, not a separate copy.
